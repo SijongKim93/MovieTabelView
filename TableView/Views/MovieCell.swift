@@ -10,9 +10,7 @@ import UIKit
 class MovieCell: UITableViewCell {
 
     @IBOutlet weak var mainImageView: UIImageView!
-   
     @IBOutlet weak var movieNameLable: UILabel!
-    
     @IBOutlet weak var descriptionLable: UILabel!
     
     
@@ -26,9 +24,4 @@ class MovieCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
-    
-    
-    
-    
 }
